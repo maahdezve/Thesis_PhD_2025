@@ -8,8 +8,8 @@ This repository contains R codes implementing methods developed in my thesis for
 
 This folder includes:
 
-* ***Implementation of SPNLME***: Scripts for fitting Semiparametric nonlinear mixed-effects (SPNLME) models. The Preece-Baines model is used as parametric component and  P-splines model as nonparamteric component.
-* ***Classification Methods***: Scripts for applying Discriminant classification  using SPNLME
+* ***SPNLME Models***: Implementation of Semiparametric nonlinear mixed-effects (SPNLME) models. The Preece-Baines model is used as a parametric component, and P-splines model as a nonparametric component.
+* ***Classification Method***: Implementation of Discriminant classification  using SPNLME
 
 ###  SITAR Modifications
 

@@ -171,8 +171,6 @@ plot(npde.obj)
 deriv_saem= deriv_sitar_saemixModel(object=saem_model, xoffset=mean(data$age) ,df=df_sel,
                                    n.smooth=100,smooth.deriv=T)
 
-deriv.smooth_all %>% ggplot(aes(x=x, y=y, group=id))+geom_line()
-
 phv_res_saem=phv_estimates(x_grid=deriv_saem$deriv_smooth$x,
                            id=deriv_saem$deriv_smooth$id, 
                            y_grid=deriv_saem$deriv_smooth$y)
